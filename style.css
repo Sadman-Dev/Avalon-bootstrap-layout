@@ -1,0 +1,161 @@
+/* Navbar */
+.navbar-light .navbar-nav .nav-link{
+    color: #1a1a1a;
+    text-underline-offset: 7px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    text-decoration: underline;
+}
+.navbar-light .navbar-nav .nav-link.active{
+    text-decoration: underline;
+    
+}
+
+/* hero slider */
+.carousel-inner img{
+    min-height: 60vh;
+}
+
+/* Offer Area */
+.offer-area{
+    margin-top: 100px;
+}
+.offer-area h2{
+    color: #101A6B;
+    font-size: 50px;
+    font-weight: 900;
+}
+.offer-product{
+    margin-top: 50px;
+}
+
+.offer-product p {
+    color: #101A6B;
+    font-size: 19px;
+    margin-top: 20px;
+}
+.offer-product span{
+    color: #3EC1A0;
+    font-weight: bolder;
+}
+.offer-product img{
+    width: 100%;
+}
+
+/* Need Area */
+.need-area{
+    margin-top: 100px;
+}
+
+.need-area h2{
+    color: #101A6B;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 60px;
+}
+.need-area h3{
+    font-size: 22px;
+}
+.popular p{
+    margin-top: 16px;
+}
+.need-icons img {
+    margin-top: 40px;
+    
+}
+
+/* Brand Area */
+.brand-area{
+    margin-top: 100px;
+}
+.brand-header{
+    margin-bottom: 50px;
+}
+.brand-header h2{
+    color: #101A6B;
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+.brand-header a {
+    text-decoration: none;
+    text-underline-offset: 7px;
+    color: #1a1a1a;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.brand-header a:hover{
+    text-decoration: underline;
+}
+.brand-img p{
+    /* text-align: center; */
+    margin-top: 15px;
+}
+.brand-img a{
+    text-decoration: none;
+    text-underline-offset: 7px;
+    color: #1a1a1a;
+    font-size: 22px;
+    font-weight: bold;
+}
+.brand-img a:hover{
+    text-decoration: underline;
+}
+
+/* Featured Products Area */
+ .featured-product-area{
+    margin-top: 150px;
+ }
+.featured-product-area img{
+    width: 80%;
+    
+}
+.featured-product-area a{
+    text-decoration: none;
+    color: #373F50;
+    
+}
+.featured-product-area span{
+    color: #5379D5;
+    font-weight: 700;
+}
+
+.more-btn a, .fa-angle-right{
+    font-weight: 700;
+    color: #FE7B6A;
+}
+.more-btn a:hover{
+    text-decoration: underline;
+}
+
+/* Trending Produc Area */
+.trending-products-area{
+    margin-top: 100px;
+}
+.trending-products-area .fa-star{
+    font-size: 12px;
+    color: goldenrod;
+}
+.trending-products-area .card-title{
+    color: #373F50;
+}
+.trending-products-area .card-body p{
+    margin-bottom: 0;
+    color: #4e54c8;
+    font-size: 15px;
+    font-weight: 600;
+}
+/* Media Query */
+@media (min-width: 992px){
+    .ps-lg-5 {
+        padding-left: 5rem!important;
+}
+    .offer-text{
+        width: 40%;
+    }
+}
+
+
+
+
+
