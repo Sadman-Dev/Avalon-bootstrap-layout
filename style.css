@@ -150,6 +150,8 @@
 .ipad-offer-area{
     margin-top: 130px;
     background: #EFF8FF;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .ipad-offer-area span{
     font-size: 12px;
@@ -161,6 +163,84 @@
 }
 .ipad-offer-area h2, h3{
     color: #373F50;
+}
+
+/* Footer Area */
+.footer-area{
+    margin-top: 100px;
+    background: #373F50;
+    padding-bottom: 100px;
+    width: 100%;
+}
+.subcribe-form{
+    text-align: center;
+}
+.subcribe-form h3{
+    color: #F5F6F7;
+    text-align: center;
+    padding-top: 40px;
+}
+.subcribe-form p{
+    color: #8B99A7;
+}
+.subcribe-form input[type=email] {
+    outline: none;
+    width: 30%;
+    height: 40px;
+    padding: 10px;
+    /* background: #313D51; */
+    color: #313D51;
+}
+.subcribe-form input[type=button] {
+    height: 40px;
+    background: #FE696A;
+    border: none;
+    color: #EFF8FF;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-links{
+    margin-top: 50px;
+}
+.footer-links h5{
+    color: #F5F6F7;
+    font-size: 22px;
+    font-weight: 400;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.footer-links a:hover{
+    text-decoration: underline;
+}
+.download-app{
+    margin-top: 50px;
+}
+.download-app h5{
+    color: #F5F6F7;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.download-app a{
+    text-decoration: none;
+    background: #2B3445;
+    padding: 10px 12px 10px 12px;
+    color: #fff;
+    border-radius: 5px;
+}
+.download-app a:hover{
+    text-decoration: none;
+}
+.download-app .fa-apple .fa-google-play{
+    padding-right: 5px;
+}
+.download-app .fa-google-play{
+    padding-right: 5px;
 }
 /* Media Query */
 @media (min-width: 992px){
