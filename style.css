@@ -145,6 +145,23 @@
     font-size: 15px;
     font-weight: 600;
 }
+
+/* ipad offer area */
+.ipad-offer-area{
+    margin-top: 130px;
+    background: #EFF8FF;
+}
+.ipad-offer-area span{
+    font-size: 12px;
+    background: #F74770;
+    color: #fff;
+    padding: 2px 5px 2px 5px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+.ipad-offer-area h2, h3{
+    color: #373F50;
+}
 /* Media Query */
 @media (min-width: 992px){
     .ps-lg-5 {
